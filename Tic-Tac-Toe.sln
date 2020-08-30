@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tic-Tac-Toe", "Tic-Tac-Toe\Tic-Tac-Toe.csproj", "{81BACEA7-DDCA-4D16-85E2-64BE3BBAC5FB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup1\Setup1.vdproj", "{29CAADF2-BAAF-4CB7-913F-11B11C6C7B62}"
+EndProject
+Project("{E729F059-12D4-455F-A2A4-FDA8DD25E08A}") = "My Project Name-2", "C:\InstallShield 2019 Projects\My Project Name-2.isproj", "{C51AD566-13FF-461A-9215-20F73C663A00}"
+	ProjectSection(ProjectDependencies) = postProject
+		{81BACEA7-DDCA-4D16-85E2-64BE3BBAC5FB} = {81BACEA7-DDCA-4D16-85E2-64BE3BBAC5FB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81BACEA7-DDCA-4D16-85E2-64BE3BBAC5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BACEA7-DDCA-4D16-85E2-64BE3BBAC5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BACEA7-DDCA-4D16-85E2-64BE3BBAC5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BACEA7-DDCA-4D16-85E2-64BE3BBAC5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CAADF2-BAAF-4CB7-913F-11B11C6C7B62}.Debug|Any CPU.ActiveCfg = Debug
+		{29CAADF2-BAAF-4CB7-913F-11B11C6C7B62}.Release|Any CPU.ActiveCfg = Release
+		{C51AD566-13FF-461A-9215-20F73C663A00}.Debug|Any CPU.ActiveCfg = Debug
+		{C51AD566-13FF-461A-9215-20F73C663A00}.Debug|Any CPU.Build.0 = Debug
+		{C51AD566-13FF-461A-9215-20F73C663A00}.Release|Any CPU.ActiveCfg = Release
+		{C51AD566-13FF-461A-9215-20F73C663A00}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {482AE74B-9765-4348-B4E0-C0061BCE2019}
+	EndGlobalSection
+EndGlobal
